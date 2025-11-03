@@ -1,0 +1,9 @@
+{
+	"name": "SpotifyProjectDataFactory2087",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a954e1f7-0e45-4cc2-9a13-bfa40c64163d",
+		"tenantId": "dfe33ecb-d661-4a3f-aec6-d05088ea578b"
+	}
+}
