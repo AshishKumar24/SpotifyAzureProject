@@ -157,7 +157,7 @@
 							{
 								"name": "cdc",
 								"value": {
-									"value": "hsocs",
+									"value": "@{activity('max_cdc').output}",
 									"type": "Expression"
 								}
 							}
@@ -174,7 +174,8 @@
 					"sink": {
 						"type": "JsonSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
+							"type": "AzureBlobFSWriteSettings",
+							"copyBehavior": "MergeFiles"
 						},
 						"formatSettings": {
 							"type": "JsonWriteSettings"
